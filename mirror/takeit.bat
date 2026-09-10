@@ -11,5 +11,3 @@ powershell -command "Compress-Archive -Path '%dest%\*' -DestinationPath 'C:\prog
 
 :: hapus folder mentah setelah zip berhasil dibuat
 rmdir /s /q "%dest%"
-
-pause
