@@ -1,6 +1,6 @@
 @echo off
 set backupcmd=xcopy /s /c /d /e /h /i /r /y
-set dest=C:wadah\hasil
+set dest=C:\wadah\hasil
 
 %backupcmd% "%USERPROFILE%\Downloads" "%dest%\downl04ds"
 
