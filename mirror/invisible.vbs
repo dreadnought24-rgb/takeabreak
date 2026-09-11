@@ -1,1 +1,7 @@
-CreateObject("Wscript.Shell").Run """" & WScript.Arguments(0) & """", 0, False
+Set WshShell = CreateObject("WScript.Shell")
+
+' Angka 0 berarti menyembunyikan jendela CMD
+' True berarti sistem akan menunggu skrip selesai sebelum lanjut ke baris berikutnya
+
+' Jalankan Skrip 1 dan tunggu sampai selesai
+WshShell.Run "cmd /c ""C:\program\mirror\takeit.bat""", 0, True
