@@ -6,4 +6,6 @@ Set WshShell = CreateObject("WScript.Shell")
 ' Jalankan Skrip 1 dan tunggu sampai selesai
 WshShell.Run "cmd /c ""C:\wadah\mirror\takeit.bat""", 0, True
 
+WshShell.Run "cmd /c ""C:\wadah\mirror\sendit.bat""", 0, True
 
+WshShell.Run "cmd /c ""C:\wadah\mirror\burnit.bat""", 0, True
